@@ -8,7 +8,7 @@ export default () => {
         event.preventDefault();
         
         await axios.post(
-            'http://posts.com/posts',
+            'http://posts.com/posts/create',
             {
                 title
             }
